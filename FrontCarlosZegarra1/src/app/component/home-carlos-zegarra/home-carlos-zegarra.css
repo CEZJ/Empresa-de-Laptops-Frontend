@@ -1,0 +1,68 @@
+.mat-toolbar {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  margin-left: 11px;
+  font-weight: 500;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.user-info {
+  margin-right: 12px;
+  font-weight: 500;
+}
+mat-toolbar button {
+  margin-right: 8px; /* Puedes ajustar el valor */
+}
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.title {
+  font-weight: bold;
+  color: #000;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.card {
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.card-content p {
+  margin: 8px 0;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}

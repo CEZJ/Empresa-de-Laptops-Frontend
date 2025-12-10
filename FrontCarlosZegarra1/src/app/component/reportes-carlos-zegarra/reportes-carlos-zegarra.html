@@ -1,0 +1,26 @@
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 40px; margin-top: 20px;">
+  <!-- Gráfico -->
+  <div>
+    <canvas id="myChart" width="400" height="400"></canvas>
+  </div>
+  <!-- Tabla con título encima -->
+  <div class="table-container">
+    <h3 class="table-title">Tabla 1. Cantidad de incidentes por Tipo</h3>
+    <table mat-table [dataSource]="datos" class="mat-elevation-z8" style="width: 400px;">
+      <!-- Columna Nombre -->
+      <ng-container matColumnDef="nombre">
+        <th mat-header-cell *matHeaderCellDef> Nombre </th>
+        <td mat-cell *matCellDef="let element">{{ element.cezjNombreIncidente }}</td>
+      </ng-container>
+      <!-- Columna Cantidad -->
+      <ng-container matColumnDef="cantidad">
+        <th mat-header-cell *matHeaderCellDef> Cantidad </th>
+        <td mat-cell *matCellDef="let element">{{ element.cezjCantidadIncidentes }}</td>
+      </ng-container>
+      <!-- Cabecera -->
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <!-- Filas -->
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+</div>
