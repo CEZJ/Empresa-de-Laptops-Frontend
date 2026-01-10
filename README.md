@@ -8,8 +8,8 @@ Curso de Arquitectura de Aplicaciones Web
 <img width="676" height="177" alt="image" src="https://github.com/user-attachments/assets/055698cc-9f14-4d80-b878-50b7d8f71bc2" />
 <img width="668" height="145" alt="image" src="https://github.com/user-attachments/assets/80444346-941e-45b1-afe8-b7339aa46115" />
 <img width="605" height="43" alt="image" src="https://github.com/user-attachments/assets/16b2b36d-fcbb-4af8-b65f-cd76ac522b79" />
-
 MODELO DE BASE DE DATOS
+
 <img width="437" height="286" alt="image" src="https://github.com/user-attachments/assets/28075ecf-a0a5-40aa-9010-3b5f75ee5748" />
 
 
